@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="192dp"
+	android:layout_width="match_parent">
+
+	<ImageView
+		android:focusable="true"
+		android:clickable="true"
+		android:foreground="?android:attr/selectableItemBackground"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:src="@drawable/image_1"
+		android:scaleType="centerCrop">
+
+	</ImageView>
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:gravity="bottom">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="left|center">
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:orientation="vertical"
+				android:gravity="bottom"
+				android:id="@+id/navheaderLinearLayout1">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="@string/app_name"
+					android:textColor="#FFFFFF"
+					android:layout_marginLeft="16dp"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+				android:layout_marginLeft="10dp"
+				android:gravity="right|center"
+				android:layout_gravity="right|center">
+
+				<LinearLayout
+					android:theme="@style/NightMode"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:orientation="vertical"
+					android:layout_margin="16dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:layout_width="wrap_content"
+						android:text="@string/dl_user"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:layout_width="wrap_content"
+						android:text="Small Text"
+						android:id="@+id/navheaderTextView1"/>
+
+				</LinearLayout>
+
+				<ImageButton
+					style="?android:attr/buttonBarButtonStyle"
+					android:layout_height="48dp"
+					android:layout_width="48dp"
+					android:src="@drawable/ic_pencil"
+					android:id="@+id/navheaderImageButton1"
+					android:scaleType="centerCrop"
+					android:scaleX="0.65"
+					android:scaleY="0.65"
+					android:layout_marginRight="16dp"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</FrameLayout>
+

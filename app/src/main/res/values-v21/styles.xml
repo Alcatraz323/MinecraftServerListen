@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="AppTheme" parent="@android:style/Theme.Material.Light">
+<resources
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppTheme" parent="AppTheme.Parent">
+		<item name="colorPrimary">@color/default_colorPrimary</item>
+		<item name="colorAccent">@color/default_colorAccent</item>
+	</style>
+	<style name="NightMode" parent="Theme.AppCompat.NoActionBar">
+		<item name="colorPrimary">@android:color/transparent</item>
+		<item name="colorAccent">@color/default_colorAccent</item>
 	</style>
 </resources>

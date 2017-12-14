@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">VolServer</string>
-    <string name="hello_world">Hello world!</string>
-
+    <string name="app_name">Server+</string>
+    <string name="main_empty">Empty</string>
+	<string name="dl_user">当前用户名:</string>
+	<string name="usr_change">用户名</string>
+	<string name="main_drawer_1_t">功能</string>
+	<string name="main_drawer_2_t">其他</string>
+	<string name="main_menu_1">设置</string>
+	<string name="main_menu_2">关于</string>
+	<string name="ad_pb1">确认</string>
+	<string name="ad_nb1">取消</string>
+	<string name="ad_pb2">是</string>
+	<string name="ad_nb2">否</string>
+	<string name="ad_nb3">关闭</string>
+	<string name="connecting">正在连接...</string>
 </resources>

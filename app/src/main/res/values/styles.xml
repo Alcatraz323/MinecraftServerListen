@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+<resources> 
+	<style name="AppTheme" parent="AppTheme.Parent">
+		<item name="colorPrimary">@color/default_colorPrimary</item>
+		<item name="colorAccent">@color/default_colorAccent</item>
+	</style>
+	<style name="NightMode" parent="Theme.AppCompat.NoActionBar">
+		<item name="colorPrimary">@android:color/transparent</item>
+		<item name="colorAccent">@color/default_colorAccent</item>
+	</style>
+	<style name="AppTheme.Parent" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="windowActionModeOverlay">true</item>
+		<item name="windowActionBarOverlay">true</item>
+		<item name="windowNoTitle">true</item>
+		<item name="windowActionBar">false</item>
 	</style>
 </resources>

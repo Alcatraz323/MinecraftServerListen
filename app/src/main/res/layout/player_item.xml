@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:gravity="left|center">
+
+	<ImageView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:src="@drawable/ic_account_circle"
+		android:scaleX="0.7"
+		android:scaleY="0.7"
+		android:layout_margin="14dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:id="@+id/playeritemTextView1"/>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:gravity="right|center">
+
+		<FrameLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:gravity="center"
+				android:id="@+id/playeritemLinearLayout2"
+				android:visibility="gone">
+
+				<ImageView
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:src="@drawable/ic_check"
+					android:id="@+id/playeritemImageView1"
+					android:scaleX="0.7"
+					android:scaleY="0.7"
+					android:layout_marginRight="12dp"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:id="@+id/playeritemLinearLayout1"
+				android:gravity="center">
+
+				<ImageButton
+					style="?android:attr/buttonBarButtonStyle"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:src="@drawable/ic_plus"
+					android:id="@+id/playeritemImageButton1"
+					android:scaleX="0.7"
+					android:scaleY="0.7"
+					android:layout_marginRight="12dp"/>
+
+			</LinearLayout>
+
+		</FrameLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+
